@@ -1,10 +1,8 @@
-import styled from 'styled-components'
+import React from "react";
+import Login from "../src/pages/Login";
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
+const Home = () => {
+  return <Login />;
+};
 
-export default function Home() {
-  return <Title>My page</Title>
-}
+export default Home;
