@@ -1,15 +1,15 @@
 import tw from "tailwind-styled-components";
 
 export const Container = tw.div`
-    w-screen h-screen bg-gray-50 flex flex-col items-center
+    w-screen h-screen bg-white dark:bg-midnight transition-all flex flex-col items-center
 `;
 
 export const Content = tw.div`
-w-full h-full max-w-screen-lg grid grid-cols-2
+w-full h-full max-w-screen-lg xl:grid grid-cols-1 md:grid grid-cols-2 lg:grid grid-cols-2
 `;
 
 export const Aside = tw.aside`
-    flex
+    flex 
 `;
 
 export const Main = tw.main`
